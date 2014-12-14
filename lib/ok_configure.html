@@ -1,0 +1,31 @@
+<template name="configureLoginServiceDialogForOk">
+    <p>
+        First, you'll need to register your client on Odnoklassniki. Follow these steps:
+    </p>
+    <ol>
+        <li>
+            Visit <a href="http://ok.ru/dk?st.cmd=appEdit&st._aid=Apps_Info_MyDev_AddApp" target="_blank">http://ok.ru/dk?st.cmd=appEdit&st._aid=Apps_Info_MyDev_AddApp</a>
+        </li>
+        <li>
+            Set <b>Name</b>, <b>Short Name</b> and <b>Description</b>
+        </li>
+        <li>
+            Set App type: <b>External</b>
+        </li>
+        <li>
+            Set App icons links <b>128x128</b>, <b>50x50</b> and <b>18x18</b>
+        </li>
+        <li>
+            Set App link to: <span class="url">{{siteUrl}}</span>
+        </li>
+        <li>
+            Set Redirect Uri to: <span class="url">{{siteUrl}}_oauth/ok</span>
+        </li>
+        <li>
+            Set Callback URL to: <span class="url">{{siteUrl}}_oauth/ok</span>
+        </li>
+        <li>
+            Set Your contact <b>Email</b> address
+        </li>
+    </ol>
+</template>
