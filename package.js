@@ -12,7 +12,7 @@ Package.on_use(function(api) {
     api.use('accounts-oauth', ['client', 'server']);
     api.imply('accounts-oauth', ['client', 'server']);
 
-    api.use('jparker:crypto-md5', ['server']);
+    api.use('jparker:crypto-md5@0.1.1', ['server']);
 
     api.use('oauth2', ['client', 'server']);
     api.use('oauth', ['client', 'server']);
