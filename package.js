@@ -1,6 +1,6 @@
 Package.describe({
     summary: "Login service for Odnoklassniki.ru accounts (https://ok.ru)",
-    version: "0.1.1",
+    version: "0.1.2",
     git: "https://github.com/mike1pol/meteor-accounts-ok.git",
     name: "mikepol:accounts-ok"
 });
